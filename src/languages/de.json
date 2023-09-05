@@ -3,5 +3,17 @@
   "formLink": "Formular",
   "dataLink": "Daten",
   "theme": "Dunkles Thema",
-  "title": "Hallo, das ist der Titel von The Demos"
+  "title": "Hallo, das ist der Titel von The Demos",
+  "fullName": "Vollständiger Name",
+  "password": "Passwort",
+  "email": "Email",
+  "fullNameErr": "Ungültiges Formular. Der vollständige Name darf nicht leer sein",
+  "passwordErr": "Ungültige Form, Passwort muss mindestens 8 Zeichen enthalten.",
+  "emailErr": "Ungültiges Formular, E-Mail-Adresse darf nicht leer sein",
+  "lCase": "Ungültige Form, 0 Kleinbuchstaben im Passwort",
+  "uCase": "Ungültige Form, 0 Großbuchstaben im Passwort",
+  "digit": "Ungültiges Formular, 0 Ziffern im Passwort",
+  "specialCrc": "Ungültige Form, 0 Sonderzeichen im Passwort",
+  "success": "Formular ist gültig",
+  "subm": "Einreichen"
 }

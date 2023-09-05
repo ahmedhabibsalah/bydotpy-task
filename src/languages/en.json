@@ -3,5 +3,17 @@
   "formLink": "Form",
   "dataLink": "Data",
   "theme": "Dark Theme",
-  "title": "Hello This is The Demo's title"
+  "title": "Hello This is The Demo's title",
+  "fullName": "Full Name",
+  "password": "Password",
+  "email": "Email",
+  "fullNameErr": "Invalid Form, Full Name can not be empty",
+  "passwordErr": "Invalid Form, Password must contain greater than or equal to 8 characters.",
+  "emailErr": "Invalid Form, Email Address can not be empty",
+  "lCase": "Invalid Form, 0 lower case characters in password",
+  "uCase": "Invalid Form, 0 upper case characters in password",
+  "digit": "Invalid Form, 0 digit characters in password",
+  "specialCrc": "Invalid Form, 0 special characters in password",
+  "success": "Form is valid",
+  "subm": "Submit"
 }

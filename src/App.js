@@ -6,6 +6,7 @@ import store from "./redux/store";
 import DarkThemeProvider from "./components/Layout/DarkThemeProvider";
 import { LanguageProvider } from "./container/Language";
 import Home from "./components/home/Home";
+import Form from "./components/form/Form";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <NavBar />
             <Routes>
               <Route path="/" Component={Home} />
+              <Route path="/form" Component={Form} />
             </Routes>
           </LanguageProvider>
         </DarkThemeProvider>
