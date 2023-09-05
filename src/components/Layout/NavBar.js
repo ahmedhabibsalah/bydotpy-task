@@ -1,5 +1,6 @@
 import React from "react";
 import { AppBar, ItemLink } from "./StyledNav";
+import DarkThemeToggle from "./DarkThemeToggle";
 
 export default function NavBar() {
   return (
@@ -7,9 +8,7 @@ export default function NavBar() {
       <ItemLink to="/">Home</ItemLink>
       <ItemLink to="/form">Form</ItemLink>
       <ItemLink to="/data">Data</ItemLink>
-      <p>
-        <input type="checkbox"></input> Use Dark Theme
-      </p>
+      <DarkThemeToggle />
     </AppBar>
   );
 }
