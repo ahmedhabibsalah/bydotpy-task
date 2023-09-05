@@ -2,5 +2,6 @@
   "homeLink": "Home",
   "formLink": "Form",
   "dataLink": "Data",
-  "theme": "Dark Theme"
+  "theme": "Dark Theme",
+  "title": "Hello This is The Demo's title"
 }
