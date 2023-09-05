@@ -15,7 +15,7 @@ const DarkThemeToggle = () => {
         checked={darkThemeEnabled}
         onChange={() => dispatch({ type: TOGGLE_DARKTHEME })}
       ></input>
-      <span>Use Dark Theme</span>
+      <span>Dark Theme</span>
     </p>
   );
 };
