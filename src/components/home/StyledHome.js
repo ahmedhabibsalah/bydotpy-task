@@ -1,16 +1,6 @@
 import styled from "styled-components";
-import { backgroundColor, textColor } from "../../globalStyles";
+import { textColor } from "../../globalStyles";
 
-export const Container = styled.section`
-  background: ${backgroundColor};
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding: 20px 40px;
-  flex-wrap: wrap;
-  gap: 2rem;
-  height: 100vh;
-`;
 export const LeftSide = styled.div`
   display: flex;
   max-width: 500px;

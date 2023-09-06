@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
-import { Container, LeftSide, RightSide, Title } from "./StyledHome";
+import { LeftSide, RightSide, Title } from "./StyledHome";
 import { LanguageContext } from "../../container/Language";
+import { Container } from "../../globalStyles";
 
 export default function Home() {
   const { dictionary } = useContext(LanguageContext);

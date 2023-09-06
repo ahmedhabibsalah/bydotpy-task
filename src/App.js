@@ -7,6 +7,7 @@ import DarkThemeProvider from "./components/Layout/DarkThemeProvider";
 import { LanguageProvider } from "./container/Language";
 import Home from "./components/home/Home";
 import Form from "./components/form/Form";
+import Data from "./components/data/Data";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/" Component={Home} />
               <Route path="/form" Component={Form} />
+              <Route path="/data" Component={Data} />
             </Routes>
           </LanguageProvider>
         </DarkThemeProvider>
